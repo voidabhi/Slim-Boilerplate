@@ -37,7 +37,7 @@ foreach (glob(APP_PATH."/routes/*.php") as $routes) {
 require APP_PATH."/hooks.php";
 require APP_PATH."/helpers/OAuthMiddleware.php";
 
-// $headers = apache_request_headers();
-// $app->add(new OAuth2Auth($headers));
+$headers = apache_request_headers();
+$app->add(new OAuth2Auth($headers));
 
 $app->run(); 
