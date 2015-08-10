@@ -6,8 +6,7 @@
 	"license" : "MIT",
 	"authors" : [{
 		"name"  : "Abhijeet Mohan",
-		"email" : "abhijeetshibu@gmail.com",
-		"role"  : "Developer"
+		"email" : "abhijeetshibu@gmail.com"
 	}],
 	"require" : {
 		"php" : ">= 5.3",
