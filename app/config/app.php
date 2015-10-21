@@ -34,6 +34,9 @@ foreach (glob(APP_PATH."/routes/*.php") as $routes) {
 	$app->addRoutes(require $routes);		
 }
 
+/**
+ * Add hooks and middlwares
+ */
 require APP_PATH."/hooks.php";
 require APP_PATH."/helpers/OAuthMiddleware.php";
 
