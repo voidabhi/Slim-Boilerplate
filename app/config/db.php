@@ -3,6 +3,7 @@
 
 use Illuminate\Database\Capsule\Manager as Capsule;  
 
+// define db configuration
 $dbConfig = array(
 	'driver'    => 'mysql',
 	'host'      => 'localhost',
