@@ -17,7 +17,7 @@ class OAuth2Auth extends \Slim\Middleware
 			 $this->next->call();
            }
 		   
-        // this line is required for the application to proceed
+        // this line is required for the application to proceed, should be removed to enable oauth
        $this->next->call();
     }
 }
