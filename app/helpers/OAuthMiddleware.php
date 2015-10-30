@@ -10,7 +10,7 @@ class OAuth2Auth extends \Slim\Middleware
 
     public function call() {
         // no auth header
-		if(!isset($this->headers['Authorization'])) {
+		if(!isset($this->headers['Authorization'] == 'AUTH_KEY')) {
 			$this->app->response->setBody("Access credentials not supplied");
         } 
 		else {
@@ -18,6 +18,6 @@ class OAuth2Auth extends \Slim\Middleware
            }
 		   
         // this line is required for the application to proceed, should be removed to enable oauth
-       $this->next->call();
+       //$this->next->call();
     }
 }
