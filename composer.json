@@ -1,6 +1,6 @@
 {
 	"name" : "Todo Slim",
-	"description" : "",
+	"description" : "A sample todo application built with slim framework",
 	"version" : "dev",
 	"keywords" : ["slim", "todo"],
 	"license" : "MIT",
