@@ -1,4 +1,4 @@
 vendor/
 nbproject/
-npm-debug.log
+*.log
 .DS_Store
