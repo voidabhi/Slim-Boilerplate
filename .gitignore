@@ -2,3 +2,4 @@ vendor/
 nbproject/
 *.log
 .DS_Store
+dump.rdb
