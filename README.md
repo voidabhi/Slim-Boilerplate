@@ -1,4 +1,4 @@
-Todo Slim
+Slim Boilerplate
 =============
 
-Skeleton mvc based rest application.
+Minimal boilerplate for build rest application with slim
