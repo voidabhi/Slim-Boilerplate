@@ -1,0 +1,3 @@
+
+# lint, build
+make run
