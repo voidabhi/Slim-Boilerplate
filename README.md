@@ -7,3 +7,9 @@ Minimal boilerplate for build rest application with [slim](http://www.slimframew
 ```bash
   $ composer install
 ```
+
+### Run
+
+```bash
+  $ php -S localhost:8080 .
+```
